@@ -233,19 +233,12 @@ a {
 }
 .mob-menu-container {
   position: relative;
-  padding-top: 72px;
-  padding-bottom: 40px;
   padding: 72px 24px 40px 16px;
-
   display: flex;
   flex-direction: column;
   height: 100%;
+  width: 100%;
   justify-content: space-between;
-}
-@media screen and (max-width: 320px) {
-.mob-menu-container {
-  margin: 0 auto;
-}
 }
 .mob-menu.is-open {
   opacity: 1;
